@@ -21,7 +21,7 @@ types that are not classes.
 <OL>
 <H2><LI>Limited Type Constructor</H2>
 <P>
-Add a new function, <a href = "../book.annotated/ch6.html#funclass">limited</a>, with the following definition:
+Add a new function, <a href = "../book-annotated/ch6.html#funclass">limited</a>, with the following definition:
 <P>
 limited class   #key  =&gt; type        [Generic Function]
 The function limited returns a limited subtype of class.   The 
@@ -30,12 +30,12 @@ support limited; the methods for limited are documented individually.
 <P>
 <H2><LI>Limited Integer Types</H2>
 <P>
-Specify a method for creating limited subtypes of <a href = "../book.annotated/ch14.html#integer-class0">&lt;integer&gt;:</a>
+Specify a method for creating limited subtypes of <a href = "../book-annotated/ch14.html#integer-class0">&lt;integer&gt;:</a>
 <P>
 limited (singleton &lt;integer&gt;) #key  min max =&gt; type        [G. F. Method]
 Returns a limited integer type, which is a subtype of &lt;integer&gt; whose 
-instances are integers greater than or equal to <a href = "../book.annotated/ch14.html#min0">min</a> (if min: is 
-specified) and less than or equal to <a href = "../book.annotated/ch14.html#max0">max</a> (if max: is specified).  If 
+instances are integers greater than or equal to <a href = "../book-annotated/ch14.html#min0">min</a> (if min: is 
+specified) and less than or equal to <a href = "../book-annotated/ch14.html#max0">max</a> (if max: is specified).  If 
 no keyword arguments are specified, the result type is equivalent to 
 &lt;integer&gt;.  Limited integer types are not instantiable.
 <PRE>
@@ -83,7 +83,7 @@ collection type is instantiable and accepts the same keyword
 arguments to make as the collection-class from which it is derived.
 <P>
 collection-class  must be instantiable and not sealed, thus among the 
-predefined collection classes, <a href = "../book.annotated/ch12.html#instcoll">the following</a> are acceptable: &lt;table&gt;, 
+predefined collection classes, <a href = "../book-annotated/ch12.html#instcoll">the following</a> are acceptable: &lt;table&gt;, 
 &lt;array&gt;, &lt;vector&gt;, &lt;stretchy-vector&gt;, &lt;string&gt;, &lt;deque&gt;, and &lt;range&gt;</a>.
 <P>
 If  of: type  is specified, each element must be an instance of type.  
@@ -92,7 +92,7 @@ instance of type.    Setting or initializing an element will check
 that the new element is an instance of type  and signal an error of 
 type &lt;type-error&gt; if it is not.
 <P>
-If  <a href = "../book.annotated/ch12.html#size0">size</a>: integer  is specified, there must be exactly integer  
+If  <a href = "../book-annotated/ch12.html#size0">size</a>: integer  is specified, there must be exactly integer  
 elements.  This keyword argument is not accepted if collection-class  
 is stretchy (e.g. &lt;table&gt;, &lt;stretchy-vector&gt;, or &lt;deque&gt;).  For 
 &lt;array&gt;, the argument can be a sequence of integers.

@@ -17,18 +17,18 @@ cannot appear as argument expressions.
 <P>
 <HR>
 <P>
-<a href = "../book.annotated/ch3.html#exp">On page 27</a> of the Dylan manual, define an outer expression to be an 
+<a href = "../book-annotated/ch3.html#exp">On page 27</a> of the Dylan manual, define an outer expression to be an 
 expression that is not a sub-expression of any expression.  Then 
 define a top-level expression to be either an outer expression or a 
 direct sub-expression of a begin syntax form that itself is a toplevel expression.  Note that a macro expands into a top-level 
 expression if the macro invocation is itself a top-level expression.
 <P>
-<a href = "../book.annotated/ch3.html#Syntax Form0">On page 29</a>, introduce a third kind of syntax form called a 
+<a href = "../book-annotated/ch3.html#Syntax Form0">On page 29</a>, introduce a third kind of syntax form called a 
 definition, introduced by a definition operator.  The definition 
 operators in the book are  define, define-class, define-genericfunction, and define-method.  Change their documentation to say 
 "[Definition]" instead of "[Macro]."
 <P>
-<a href = "../book.annotated/ch4.html">On page 30</a>, restrict definitions to be top-level expressions.
+<a href = "../book-annotated/ch4.html">On page 30</a>, restrict definitions to be top-level expressions.
 <P>
 On page 31, specify that a given module variable can only be defined 
 once, except that multiple define-method definitions with different 
@@ -41,7 +41,7 @@ expressions.
 Modify footnote 9 on page 31, since define is no longer allowed 
 inside a definition.
 <P>
-<a href = "../book.annotated/ch6.html">On page 39</a>, change the first paragraph of the description of definegeneric-function to:
+<a href = "../book-annotated/ch6.html">On page 39</a>, change the first paragraph of the description of definegeneric-function to:
 <P>
 name should be a variable name.  It is defined as a read-only 
 variable in the current module, containing a new generic function 
@@ -66,7 +66,7 @@ generic function or extend an old one, as needed.
 <P>
 This eliminates all discussion of side effects in define-method.
 <P>
-<a href = "../book.annotated/ch6.html#define-class2">On page 51</a>, remove the third and fourth paragraphs of the description 
+<a href = "../book-annotated/ch6.html#define-class2">On page 51</a>, remove the third and fourth paragraphs of the description 
 of define-class.  This eliminates all discussion of side effects in 
 define-class.  Also eliminate any  indications of a value returned by 
 define-class.  Definitions do not have values since they cannot 

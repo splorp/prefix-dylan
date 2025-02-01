@@ -15,7 +15,7 @@ any sequence.
 <P>
 <HR>
 <P>
-Replace the definition of replace-subsequence! <a href = "../book.annotated/ch12.html#replace-subsequence!0"> on page 108 of the Dylan book</a> with the following:
+Replace the definition of replace-subsequence! <a href = "../book-annotated/ch12.html#replace-subsequence!0"> on page 108 of the Dylan book</a> with the following:
 <PRE>
 replace-subsequence! sequence insert-sequence 
                      #key start end =&gt;  result-sequence           [Generic Function]
@@ -26,7 +26,7 @@ the elements of  insert-sequence.  The subsequence to be overridden
 begins at index start and ends at index end. If start is not 
 supplied, it defaults to 0. If end is not supplied, it defaults to 
 (size sequence ).  result-sequence  may or may not share structure 
-with sequence , it may or may not be <a href = "../book.annotated/ch9.html#id?0">id?</a> to sequence , and sequence  
+with sequence , it may or may not be <a href = "../book-annotated/ch9.html#id?0">id?</a> to sequence , and sequence  
 may or may not be modified by the operation.  result-sequence  will 
 not share structure with insert-sequence.
 <PRE>

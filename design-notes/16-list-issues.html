@@ -16,7 +16,7 @@ have not used dynamic languages before.
 <P>
 <HR>
 <P>
-Make the following changes to the Dylan manual, <a href = "../book.annotated/ch12.html#listops">pages 115-117</a>:  
+Make the following changes to the Dylan manual, <a href = "../book-annotated/ch12.html#listops">pages 115-117</a>:  
 <P>
 Rename cons to pair.  Rename car and cdr to head and tail 
 respectively, and rename the corresponding setters to head-setter 
@@ -28,7 +28,7 @@ Remove list*.  Use (pair a (pair b c)) instead of (list* a b c).
 Remove find-pair.
 <P>
 Remove append.  Use concatenate instead.  Replace the definition of 
-concatenate <a href= "../book.annotated/ch12.html#concatenate1">on page 108</a> with the following:
+concatenate <a href= "../book-annotated/ch12.html#concatenate1">on page 108</a> with the following:
 <PRE>
 concatenate sequence1 #rest sequences=&gt; new-sequence        [Generic Function]
 </PRE>
@@ -39,7 +39,7 @@ guaranteed to do so.
 <P>
 Specify that member? on lists always returns a boolean.  Remove the 
 definition of member? on page 117, and replace the definition of 
-member? <a href = "../book.annotated/ch12.html#member?0">on page 103</a> with the following:
+member? <a href = "../book-annotated/ch12.html#member?0">on page 103</a> with the following:
 <P>
 member? value collection #key test =&gt; boolean        [Generic Function]
 member? returns #t if and only if collection contains value (as 
